@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>AlphaBeta</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="https://github.com/AlphaBeta1906" target="_blank">AlphaBeta1906</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li> 
+          <li>
+            <a class="nav-link" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=anthony13721927@gmail.com" target="_blank">email</a>
+          </li>
+        </ul>
+      </div>  
+    </nav>
+    <br>
+    <div class="container">
+        <h2>Welcome</h2>
+        <p>These are several project i made during the pandemic</p>
+        <p><strong>Note:</strong> This project is only for learning purposes, so don't expect to see great projects.these projects are open source which you can change or have freely also you can contribute to the project :)</p>
+        <div class="card-columns">
+            <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">MyNotes</h4>
+                  <p class="card-text">
+                    MyNotes is a notepad-like application that I created using c # windows form, 
+                    this application has simple functions such as saving files, opening files, 
+                    copy and paste and other standard functions.
+                  </p>
+                  <a href="https://github.com/AlphaBeta1906/MyNotes" target="_blank" class="card-link" data-toggle="tooltip" title="i want to see the code">Go to repository </a>
+                  <a href="https://github.com/AlphaBeta1906/MyNotes/releases/download/v1.1/MyNotes.exe" class="card-link" data-toggle="tooltip" title="Nah,just download the app" onclick="Alert()">Download</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Simple platform game</h4>
+                  <p class="card-text">simple platform game (yep, that's the name) is a simple game made using the godot engine, 
+                      a lightweight open source game engine. 
+                      This game is only intended for learning so in this game you won't see levels or enemies that are common in games otherwise
+                      , you can only walk through 2 levels and then the game is over(you can restart it tho)</p>
+                      <a href="https://github.com/AlphaBeta1906/Simple-Platform-game" target="_blank" class="card-link" data-toggle="tooltip" title="i want to see the code">Go to repository </a>
+                      <a href="https://github.com/AlphaBeta1906/Simple-Platform-game/releases/download/v1.0/PlatformGame.exe" class="card-link" data-toggle="tooltip" title="Nah,just download the app" onclick="Alert()">Download</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Temperature converter</h4>
+                  <p class="card-text">The temperature converter is an application that has a function to convert a temperature unit to another temperature unit,
+                        such as Celsius, Kelvin, Fahrenheit and Reamur. In the future I will make a 
+                        multi converter application that contains other units of measurement such 
+                        as mass, length, volume, etc.</p>
+                  <a href="https://github.com/AlphaBeta1906/Temperature-converter" target="_blank" class="card-link" data-toggle="tooltip" title="i want to see the code">Go to repository </a>
+                  <a href="https://github.com/AlphaBeta1906/Temperature-converter/releases/download/v1.0/Temperature.converter.exe" class="card-link" data-toggle="tooltip" title="Nah,just download the game" onclick="Alert()">Download</a>
+                </div>
+              </div>
+            
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+    <footer>©2020</footer>
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
+</body>
+</html>
